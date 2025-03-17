@@ -38,19 +38,6 @@ As result, we must have replays inside replays folder: `data\replays`
     cd ..
     ```
 
-## Running Jupiter Notebook
-
-Setup and run jupyter:
-
-```bash
-pip install jupyterlab
-jupyter-lab .
-```
-
-Open data_description.ipynb notebook from teh left side panel
-
-![Open data_description.ipynb](docs/img/jupyter.png "Open data_description.ipynb")
-
 ## How to use replay_tick_to_image?
 - Setup `replay_visualizer`
 - Example of usage is presented in `replay_tick_to_image.py` as a inner unit test (you can run it as `pytest` test):
@@ -64,10 +51,6 @@ class TestReplayToImageFunctions:
 pip install pytest
 pytest replay_tick_to_image.py
 ```
-Example of outputs images:
-![Tick - 0](images/image_0.png "Tick - 0")
-![Tick - 500](images/image_500.png "Tick - 500")
-![Tick - 1500](images/image_1500.png "Tick - 1500")
 
 
   
