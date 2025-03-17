@@ -1,0 +1,1 @@
+When downloading replay data also download LOST.dir zipped folder. There you could find folder init_version in which you will find README.md file wich would guide you on how to install the environment.
